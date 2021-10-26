@@ -1,0 +1,20 @@
+        PO
+            REQUISITO 01 - Importação automática do arquivo A01 >> validação OK
+            REQUISITO 02 - Geração de ordens de compra automaticamente >> validação OK
+            REQUISITO 03 - Integração automática da OC do sistema EBS x OSGT  >> validação OK  
+            REQUISITO 05 - Criação de ordens de compra de fornecedores nacionais >> validação OK >> falta MD50 e MD70 da trigger que inclui o nr.processo na PO
+            REQUISITO 06 - Pop-up / e-mail >> validação OK >> evidencia de validação
+            REQUISITO 07 - Aprovação sistêmica da ordem de compra >> validação OK >> evidencia de validação
+        NF DE IMPORTAÇÃO e COMPLEMENTAR 
+            REQUISITO 19 - Comunicação sistêmica com a SEFAZ para a NF de Importação >> validação OSGT OK >> falta BR100
+            REQUISITO 20 - Registro da Nota Fiscal de Importação >> MD50 e MD70 da trigger que inclui o processo na PO
+            REQUISITO 21 - Disponibilização dos itens no subinventário REC  >> validação OK >> evidencia de validação
+            REQUISITO 22 - Registro da Nota Fiscal Complementar >> falta BR100 das configurações
+            REQUISITO 24 - Criação de relatório no sistema EBS >> falta MD50 prev: 26/out , development (?)
+        NOTAS FISCAIS e PAGAMENTOS
+            REQUISITO 08 - Registro das Notas Fiscais de Fornecedores >> validação NFServ. e Invoice do OSGT >> com evidencias prev: 29/Out >> implementar o flexfield do processo. >> evidencia de contabilização em transito e depois em estoque
+            REQUISITO 04 - Criação de contabilização / reconhecimento de contas a pagar >> validação prev: 29/Out
+            REQUISITO 09 - Criação de solicitação de pagamento >> validação prev: 29/Out
+            REQUISITO 10 - Efetivação da submissão de pagamento >> validação prev: 29/Out 
+            REQUISITO 11, 12, 13 e 14 - PAGAMENTOS INTERNET BANKING >> validação prev: evidenciar se baixou fornecedor e baixou banco.
+       
